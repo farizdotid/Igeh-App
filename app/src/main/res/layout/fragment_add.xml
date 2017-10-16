@@ -1,14 +1,19 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context="com.farizdotid.igehapp.AddFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <Button
+        android:id="@+id/btnAmbil"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="20sp"
-        android:text="Fragment Add" />
+        android:layout_height="wrap_content"
+        android:text="ambil foto"/>
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/ivGambar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

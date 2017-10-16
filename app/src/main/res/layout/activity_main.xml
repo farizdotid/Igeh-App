@@ -19,21 +19,20 @@
         android:layout_alignParentBottom="true"
         android:paddingBottom="8dp"
         android:paddingTop="8dp"
-        android:background="@color/BlueGrey50"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/ivHome"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:layout_weight="1"
             android:alpha="0.5"
             android:src="@drawable/ic_home_black_24dp"/>
 
         <ImageView
-            android:id="@+id/ivSearh"
+            android:id="@+id/ivSearch"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:layout_weight="1"
             android:alpha="0.5"
             android:src="@drawable/ic_search_black_24dp"/>
@@ -41,7 +40,7 @@
         <ImageView
             android:id="@+id/ivAdd"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:layout_weight="1"
             android:alpha="0.5"
             android:src="@drawable/ic_add_box_black_24dp"/>
@@ -49,7 +48,7 @@
         <ImageView
             android:id="@+id/ivFavorite"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:layout_weight="1"
             android:alpha="0.5"
             android:src="@drawable/ic_favorite_black_24dp"/>
@@ -57,7 +56,7 @@
         <ImageView
             android:id="@+id/ivProfile"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:layout_weight="1"
             android:alpha="0.5"
             android:src="@drawable/ic_person_black_24dp"/>
