@@ -25,6 +25,7 @@ public class LoginActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         ButterKnife.bind(this);
 
+        // kodingan untuk membuat animasi backgroudnnya bergerak
         animationDrawable = (AnimationDrawable) rootLayout.getBackground();
         animationDrawable.setEnterFadeDuration(3000);
         animationDrawable.setExitFadeDuration(3000);
